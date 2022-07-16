@@ -7,7 +7,7 @@ import { Button } from '.';
 
 const FooterLinks = ({ heading, items }) => (
   <div className='items-start justify-start flex-1'>
-    <h3 className='mb-10 text-xl font-semibold font-poppings dark:text-white text-nft-black-1'>
+    <h3 className='mb-10 text-xl font-semibold font-poppins dark:text-white text-nft-black-1'>
       {heading}
     </h3>
     {items.map((item, index) => (
@@ -33,7 +33,7 @@ const Footer = () => {
             <Image src={images.logo02} objectFit='contain' alt='logo' width={32} height={32} />
             <p className='ml-1 text-lg font-semibold dark:text-white text-nft-black-1'>CryptoArt</p>
           </div>
-          <p className='mt-6 text-base font-semibold font-poppings dark:text-white text-nft-black-1'>
+          <p className='mt-6 text-base font-semibold font-poppins dark:text-white text-nft-black-1'>
             Get the latest updates
           </p>
           <div className='mt-6 bg-white border rounded-md flexBetween md:w-full minlg:w-557 w-357 dark:bg-nft-black-2 dark:border-nft-black-2 border-nft-gray-2'>
