@@ -28,6 +28,7 @@ const Footer = () => {
     <footer className='flex-col py-16 border-t flexCenter dark:border-nft-black-1 border-nft-gray-1 sm:py-8'>
       <div className='flex-row w-full px-16 minmd:w-4/5 sm:px-4 md:flex-col'>
         <div className='flex-col flex-1 flexStart'>
+          {/* problem here */}
           <div className='cursor-pointer flexCenter'>
             <Image src={images.logo02} objectFit='contain' alt='logo' width={32} height={32} />
             <p className='ml-1 text-lg font-semibold dark:text-white text-nft-black-1'>CryptoArt</p>
